@@ -42,38 +42,33 @@ h1{
 }
 
 p{
-  /*Req 3*/
+  
 }
 
 a{
-  /*Req 4*/
+  
 }
 
 /*Req 5*/
 /*Add selector and rule here*/
 
 
-/*Req 6a*/
+
 td{
   
 }
 
-/*Req 6b*/
+
 .colhead{
   color: #FFFFFF;
 
 }
-/*Req 6c*/
+
 .rowhead{
 
 }
 
-/*Req 6d*/
-/*Req 6e*/
-/*Req 6f*/
 
-
-/*Req 7*/
 table{
     border: 2px solid #000000;
 }
@@ -83,7 +78,7 @@ thead tr:first-child th:first-child{}
 /*Add selectors and rules here*/
 
 
-/*Req 8*/
+
 footer{
   width:100%;
   background:#000000;
