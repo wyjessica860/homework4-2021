@@ -16,10 +16,11 @@ caption{
   margin:5px 0px;
 }
 
-tr{
+/* If you decide to uncomment this code, comment it back for the Autograder. */
+/* tr{
   -webkit-transition: background-color 0.5s ease;
   transition: background-color 0.5s ease;
-}
+} */
 
 /*END STARTER CODE*/
 
@@ -72,6 +73,8 @@ table{
     border: 5px solid #000000;
 }
 
+/* I gave you the selector, but not the property-value pair. 
+You can use Inspect Element or your editor to find selectors. */
 thead tr:first-child th:first-child{}
 
 /*Add selectors and rules here*/
