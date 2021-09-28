@@ -28,10 +28,10 @@ body{
   color: #000000;
   font-size: 16px;
   margin: 1.2em;
-  font-family: 'Andika', serif;
+  font-family: Andika, sans-serif;
   background-size: cover ;
   background-position: center;
-  
+  background-repeat: no-repeat;
   background-image: url("../images/pigeon-background.JPEG");
   background-color: #DDDDDD;
   /*Req 1*/
@@ -78,7 +78,8 @@ td{
   color: #FFFFFF;
   text-align: center;
   text-transform: uppercase;
-  background-color: #7e0825; 
+  background-color: #7e0825;
+  vertical-align: middle;
 }
 
 .rowhead{
