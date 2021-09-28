@@ -28,55 +28,100 @@ body{
   color: #000000;
   font-size: 16px;
   margin: 1.2em;
+  font-family: 'Andika', serif;
   background-size: cover ;
   background-position: center;
-
+  
+  background-image: url("../images/pigeon-background.JPEG");
+  background-color: #DDDDDD;
   /*Req 1*/
 }
 
 h1{
   color: #c12258;
-  font-size: 2em;
+  font-size: 32px;
+  text-align: center;
+  line-height: 2;
 
   /*Req 2*/
 }
 
 p{
-  
+  padding-top: 15px;
 }
 
 a{
-  
+  font-size:16px;
+  color:#B21F50;
+  text-decoration-style:wavy;
 }
 
 /*Req 5*/
 /*Add selector and rule here*/
-
+*:focus{
+  border-style: dashed;
+  border-width: 3px;
+  color: #417243;
+}
 
 
 td{
-  
+  border-top: 2px solid black;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
 }
 
 
 .colhead{
+  min-width: 125px;
+  padding: 10px;
   color: #FFFFFF;
-
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #7e0825; 
 }
 
 .rowhead{
-
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  text-align: center;
+  vertical-align: middle;
 }
 
-
-table{
-    border: 5px solid #000000;
+tr:nth-child(2n+1){
+  background: transparent;
+  border-top-color:black;
 }
 
+tr:nth-child(2n){
+  background-color: #D1D1D1;
+  border-top-color:black;
+}
+tr:hover{
+  background-color: rgba(126, 8, 37, 0.25);
+}
+table {
+  border: 5px solid #000000;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50px;
+
+}
 /* I gave you the selector, but not the property-value pair. 
 You can use Inspect Element or your editor to find selectors. */
-thead tr:first-child th:first-child{}
+thead tr:first-child th:first-child{
+  border-radius: 50px 0 0 0;
+}
+thead tr:first-child th:last-child{
+  border-radius: 0 50px 0 0;
+}
 
+tbody tr:last-child td:last-child{
+  border-radius: 0 0 50px 0;
+}
+tbody tr:last-child th.rowhead{
+  border-radius: 0 0 0 50px;
+}
 /*Add selectors and rules here*/
 
 
@@ -86,4 +131,8 @@ footer{
   background:#000000;
   text-align:center;
   color: #FFFFFF;
+  min-height: 75px;
+  position:fixed;
+  bottom: 0;
+  left: 0;
 }
